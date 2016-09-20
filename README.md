@@ -8,7 +8,8 @@
     }
 这些注解都有一个参数 value，用来配置其路径，比如示例中的 users/{user}/repos，
 我们还注意到在构造 Retrofit 之时我们还传入了一个
- baseUrl("https://api.github.com/")，请求的完整 Url
+ baseUrl("https://api.github.com/")，
+ 请求的完整 Url
 
     https://api.github.com/users/{user}/repos 传入user参数替换{user}
 
